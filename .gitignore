@@ -1,7 +1,39 @@
+# Virtual environments
 venv/
+.venv/
+
+# Python
 __pycache__/
 *.py[cod]
+
+# Environment variables
 .env
+.env.*
+
+# IDEs
 .vscode/
 .idea/
+
+# Databases
 *.db
+
+# User uploads
+media/profile_pics/
+
+# Testing & tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+snippets.txt
